@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+  }  
+  a {
+	text-decoration: none;
+  }
+  .container {
+	max-width: 1170px;
+	margin: 0 auto;
+  }
+
+  header {
+	height: 150px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 1);
+	position :fixed;
+	top: 0;
+	z-index: 10;
+  }
+  .header-ha {
+	text-align: center;
+  }
+  .header-he{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+  }
+
+  .header-ha .logo{
+	padding-top: 25px;
+	width: 200px;
+  }
+
+  .semuanya{
+    margin-top: 180px;
+    text-align: center;
+  }
+
+  .tambahan{
+    border: 3px solid black;
+    padding: 0px 300px 400px 300px;
+  }
+  .title{
+    margin: 0 36%;
+    font-size: 25px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .pesan{
+    margin-left: 32%;
+    position: absolute;
+    text-align: left;
+  }
+
+  .tombol button{
+    padding: 15px 30px 15px 60px;
+    background-color: green;  
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 19%;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;  
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .done {
+    background-color: #3b5998;
+    margin-top: 268px;
+    margin-right: 10px;
+  }
+  
+  .whatsapp {
+    background-color: #55acee;
+  }
+  .fa{
+    margin-right: 10px;
+  }

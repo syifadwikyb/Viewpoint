@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+	margin: 0;
+	padding: 0;
+  }  
+  a {
+	text-decoration: none;
+  }
+
+  .container {
+	max-width: 1170px;
+	margin: 0 auto;
+  }
+
+  header {
+	height: 150px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 1);
+	position :fixed;
+	top: 0;
+	z-index: 10;
+  }
+  .header-ha {
+	text-align: center;
+  }
+  .header-ha .logo{
+	padding-top: 25px;
+	width: 200px;
+  }
+
+  .header-ha a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	transition: all 0.5s;
+  }
+  
+  .header-ha a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 10px;
+  }
+
+.input{
+    margin: 165px 25% 0px 24%;
+    padding: 35px 87px 918px 0px;
+    border: 3px solid black;
+    border-radius: 35px;
+}
+.gambar{
+    position: absolute;
+    left: 26.5%;
+}
+.data{
+    position: absolute;
+    background-color: #334ec7;
+    top: 580px;
+    left: 30%;
+    right: 31%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0px;
+    border-radius: 45px;
+}
+form{
+    margin-left: 55px;
+}
+.nama input{
+    padding: 10px 25px;
+    margin-left: 150px;
+    font-size: 16px;
+}
+.alamat input{
+    padding: 10px 25px;
+    margin-left: 130px;
+    font-size: 16px;
+}
+.lama input{
+    padding: 10px 39px;
+    margin-left: 34px;
+}
+.submit input{
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 19%;
+    background-color: #1db113;
+    border-style: none;
+    opacity: 0.9;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.submit input:hover{
+    opacity: 1;
+    background-color: #0f550a;
+}
+.pembayaran select{
+    padding: 10px 83px;
+    margin-left: 94px;
+}
+.metode select{
+    padding: 10px 34px;
+    margin-left: 129px;
+}
